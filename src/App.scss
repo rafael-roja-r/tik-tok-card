@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+  user-select: none;
+}
+
+$fonts_ops:'Open Sans', sans-serif;
+$fonts_ps:'Poppins', sans-serif;
+
+$color_ttl:#10356A;
+$color_subttl:#999999;
+
+$color_bg:#FFFFFB;
+$color_nv:#fff;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+body{
+  background: rgb(236, 236, 236);
+ 
+  h3{
+    font-size: 11pt;
+    font-weight:300;
+    font-family: $fonts_ps;
+  }
+  h4{
+    font-size: 10pt;
+    font-weight:300;
+    font-family: $fonts_ps;
+  }
+  span{
+    font-size: 10pt;
+    font-weight:100;
+    font-family: $fonts_ops;
+    color: $color_subttl;
+  }
+  
+}
+.home{
+  width: 100%;
+  height: 100%;
+ 
+
+  .home__container{
+    position: relative;
+    margin: 46px auto;
+    width: 390px;
+    height: 90vh;
+    overflow: hidden;
+
+    .home__nav{
+      width: 100%;
+      height: 16vh;
+      background: $color_nv;
+
+      .home__nav__item{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 10px;
+      
+        img{
+          width: 24px;
+        }
+          
+
+      }
+
+      .home_name{
+        width: 90%;
+        margin: auto;
+
+      }
+
+      .home__search{
+        width: 90%;
+        margin: auto;
+        position: relative;
+
+        .home_input{
+          width: 100%;
+          height: 35px;
+          margin: 10px auto;
+          overflow: hidden;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #F7F7F7;
+          img{
+            width: 20px;
+          }
+
+          input{
+            width: 90%;
+            height: 100%;
+            left: 40px;            
+            outline: none;
+            border: none;
+            background: #F7F7F7;
+            padding: 10px;
+            font-family: $fonts_ops;
+
+          }
+
+          
+        }
+      }
+
+    }
+
+    .home__body{
+      width: 100%;
+      height: 70%;
+      background: $color_bg;
+    }
+
+    .home__menu{
+      width: 100%;
+      height: 8vh;
+      background: $color_subttl;
+
+      .home__clip{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+
+
+        background: #10356A;
+
+        .button{
+          border: none;
+          outline: none;
+          background: transparent;
+
+          img{
+            width: 80%;
+            height: 80%;
+          }
+
+        }
+      }
+
+
+      
+    }
+  }
+}
