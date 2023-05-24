@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/tik-tok-card/static/css/main.cad702bc.css",
+    "main.js": "/tik-tok-card/static/js/main.8859e3af.js",
+    "static/media/user.svg": "/tik-tok-card/static/media/user.191c262afd042183b69384994945a131.svg",
+    "static/media/home.svg": "/tik-tok-card/static/media/home.75bfb0339f33696de607fc2252696c42.svg",
+    "static/media/ring.svg": "/tik-tok-card/static/media/ring.4352290f431f395f196d8ddc9967c8a6.svg",
+    "static/media/bgs.svg": "/tik-tok-card/static/media/bgs.c982dae4ba13ddd7652a3494325cc864.svg",
+    "index.html": "/tik-tok-card/index.html",
+    "static/media/proyect.svg": "/tik-tok-card/static/media/proyect.eb2bcaa67aae34ceaff7fbecadf5f515.svg",
+    "main.cad702bc.css.map": "/tik-tok-card/static/css/main.cad702bc.css.map",
+    "main.8859e3af.js.map": "/tik-tok-card/static/js/main.8859e3af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cad702bc.css",
+    "static/js/main.8859e3af.js"
+  ]
+}
