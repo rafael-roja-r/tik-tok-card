@@ -1,11 +1,11 @@
 import React from "react";
 
-const User = ()=>{
+const Newproyect = ()=>{
     return (
-        <div className="user"> 
+        <div className="newproyect"> 
          <h2> soy User</h2>
         </div>
     );
 }
 
-export default User;
+export default Newproyect;
